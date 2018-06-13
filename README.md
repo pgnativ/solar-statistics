@@ -1,8 +1,16 @@
 # Solar statistics demo
 
 npm install -g @angular/cli@latest
+
 npm install -g typescript
+
 npm install -g firebase-tools
+
+npm install angularfire2 firebase --save
+
+npm install --save lodash
+
+npm install --save @types/lodash
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
