@@ -1,1 +1,1 @@
-# solar-statistics
+# Solar statistics demo
