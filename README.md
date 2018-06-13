@@ -1,19 +1,6 @@
-# Solar statistics demo
+# Solar Statistics
 
-npm install -g @angular/cli@latest
-
-npm install -g typescript
-
-npm install -g firebase-tools
-
-npm install --save angularfire2 firebase
-
-
-npm install --save lodash
-
-npm install --save @types/lodash
-
-ng generate module app-routing --flat --module=app
+npm i firebase angularfire2
 
 ## Development server
 
