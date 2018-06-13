@@ -6,13 +6,14 @@ npm install -g typescript
 
 npm install -g firebase-tools
 
-npm install angularfire2 firebase --save
+npm install --save angularfire2 firebase
+
 
 npm install --save lodash
 
 npm install --save @types/lodash
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+ng generate module app-routing --flat --module=app
 
 ## Development server
 
