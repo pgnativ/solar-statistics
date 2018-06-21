@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Errors
+
+**Error:**
+  ``Push failed: Failed with error: unable to access 'https://github.com/pgnativ/solar-statistics.git/': The requested URL returned error: 403``
+  
+**Fix:**
+  ``git remote set-url origin https://pgnativ@github.com/pgnativ/solar-statistics.git``
+
