@@ -28,6 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Errors
 
+### Push to Git
 **Error:**
   ``Push failed: Failed with error: unable to access 'https://github.com/pgnativ/solar-statistics.git/': The requested URL returned error: 403``
   
