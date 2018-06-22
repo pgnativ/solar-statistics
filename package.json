@@ -11,7 +11,8 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^6.0.3",
+    "@angular/animations": "^6.0.6",
+    "@angular/cdk": "^6.3.0",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
     "@angular/core": "^6.0.3",
@@ -24,7 +25,8 @@
     "angularfire2": "^5.0.0-rc.10",
     "core-js": "^2.5.4",
     "firebase": "^5.0.4",
-    "rxjs": "^6.0.0",
+    "rxjs": "^6.2.1",
+    "s": "^0.1.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
