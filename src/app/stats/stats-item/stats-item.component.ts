@@ -1,6 +1,7 @@
+import { NgModule } from "@angular/core";
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 //import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-import { MatDialog, MatDialogRef } from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
 @Component({
   selector: 'app-stats-item',
@@ -30,17 +31,18 @@ export class StatsItemComponent implements OnInit {
 }
 
 @Component({
-  templateUrl: 'stats-item-add.component.html',
+  template: `
+    <h1 mat-dialog-title>Add file</h1>
+    <mat-dialog-content>
+      Content goes here
+    </mat-dialog-content>
+    <mat-dialog-actions>
+      <button mat-button>Add</button>
+      <button mat-button>Cancel</button>
+    </mat-dialog-actions>
+  `,
 })
 export class StatsItemAddComponent {
-
-  /*constructor(
-    public dialogRef: MatDialogRef<StatsItemAddComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: any) { }
-
-  onNoClick(): void {
-    this.dialogRef.close();
-  }*/
 
 }
 
