@@ -6,19 +6,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-//import {  } from '@angular/cdk';
-import { MatDialogModule } from '@angular/material';
-//import {config} from 'rxjs/index';
+import {
+  ReactiveFormsModule,
+  FormsModule
+} from '@angular/forms';
+// import { MatDialogModule } from '@angular/material';
 
-import { StatsItemComponent } from './stats/stats-item/stats-item.component';
-import { AddStatsItemComponent } from './stats/add-stats-item/add-stats-item.component';
+// import { StatisticsDialogComponent } from './components/statistics-dialog/statistics-dialog.component';
+// import { StatisticsItemComponent } from './components/statistics-item/statistics-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StatsItemComponent,
-    AddStatsItemComponent
+    // StatisticsDialogComponent,
+    // StatisticsItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,10 +27,13 @@ import { AddStatsItemComponent } from './stats/add-stats-item/add-stats-item.com
     FormsModule,
     ReactiveFormsModule,
     AngularFireDatabaseModule,
-    MatDialogModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    // MatDialogModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    // StatisticsDialogComponent,
+  ]
 })
 export class AppModule { }
