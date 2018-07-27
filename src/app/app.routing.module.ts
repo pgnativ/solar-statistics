@@ -15,7 +15,7 @@ const routes: Routes = [
       You can use "redirectTo: '/home'"
       or "component: HomePageComponent"
      */
-    component: HomePageComponent,
+    redirectTo: 'home',
   },
   {
     path: 'home',
