@@ -2,6 +2,16 @@
 
 npm install
 
+### Database permission
+If you don't have permission to database, you need to change rules for <strong>Realtime Database</strong>:
+
+<pre>{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}</pre>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
