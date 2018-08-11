@@ -1,6 +1,6 @@
 # Solar Statistics
 
-npm i firebase angularfire2
+npm install
 
 ## Development server
 
