@@ -2,15 +2,32 @@
 
 npm install
 
-### Database permission
-If you don't have permission to database, you need to change rules for <strong>Realtime Database</strong>:
+## Database
 
+### Permission
+If you don't have permission to database, you need to change rules for <strong>Realtime Database</strong>:
 <pre>{
   "rules": {
     ".read": true,
     ".write": true
   }
 }</pre>
+
+<strong>Note:</strong> default rules are:
+<pre>{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}</pre>
+
+### Populate
+
+Run in terminal:
+<pre>tsc db.populate.ts</pre>
+and
+<pre>node db.populate.js</pre>
+
 
 ## Development server
 

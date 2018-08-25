@@ -10,6 +10,8 @@ import { ListPageComponent } from './stats/list-page/list-page.component';
 import { HomePageComponent } from './stats/home-page/home-page.component';
 import { HeaderComponent } from './stats/header/header.component';
 
+// export const firebaseConfig = environment.firebaseConfig;
+
 @NgModule({
   declarations: [
     AppComponent,
