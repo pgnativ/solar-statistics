@@ -1,6 +1,8 @@
 # Solar Statistics
 
-npm install
+`npm install`
+
+`npm install -g firebase-tools`
 
 ## Development server
 
@@ -10,9 +12,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build & deploy
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`ng build --prod`
+
+All files will be stored in `dist` directory.
+
+`firebase deploy`
+
+<b>Note:</b> Maybe you need to use addition commands `firebase login` and `firebase init`.
 
 ## Running unit tests
 
